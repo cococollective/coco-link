@@ -1,0 +1,25 @@
+{
+  "name": "cococollective/coco-link",
+  "type": "drupal-module",
+  "description": "Drupal module. Provides link entities that can be referenced by other entities.",
+  "license": "GPL-2.0+",
+  "homepage": "https://www.cococollective.org/",
+  "authors": [
+    {
+      "name": "Sierk Beij",
+      "email": "sierk@riseup.net",
+      "role": "Lead developer for CocoCollective"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "drupal/drupal": "7.*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-7.x-0.x": "7.0.x-dev"
+    }
+  }
+}
