@@ -3,7 +3,7 @@
   "type": "drupal-module",
   "description": "Drupal module. Provides link entities that can be referenced by other entities.",
   "license": "GPL-2.0+",
-  "homepage": "https://www.cococollective.org/",
+  "homepage": "https://github.com/cococollective/coco-link",
   "authors": [
     {
       "name": "Sierk Beij",
@@ -15,8 +15,6 @@
     "composer/installers": "~1.0",
     "drupal/drupal": "7.*"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "extra": {
     "branch-alias": {
       "dev-7.x-0.x": "7.0.x-dev"
